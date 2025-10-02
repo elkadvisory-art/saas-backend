@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: saas-api
+    env: node
+    buildCommand: "npm i && npm run build"
+    startCommand: "node dist/main.js"
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8080
+  - type: worker
+    name: saas-worker
+    env: node
+    buildCommand: "npm i && npm run build"
+    startCommand: "node dist/worker.js"
+    plan: free
