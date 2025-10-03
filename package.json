@@ -38,3 +38,12 @@
     "typescript": "^5.4.0"
   }
 }
+{
+  "name": "saas-backend",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": { ... }
+}
