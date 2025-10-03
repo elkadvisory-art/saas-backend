@@ -4,7 +4,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "rootDir": "./",
+    "rootDir": "./src",          // 🔴 quan trọng: rootDir phải là ./src
     "baseUrl": "./",
     "strict": true,
     "esModuleInterop": true,
