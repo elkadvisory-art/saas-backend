@@ -18,3 +18,9 @@
     "src/**/*.ts"
   ]
 }
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "...": "..."
+  }
+}
